@@ -26,7 +26,7 @@ whatsapp.on('ready', () => {
     console.log("Client is ready");
 });
 
-
+app.get("/", (req, res) => res.send("Express on Vercel"));
 app.get('/sendmsg', (req, res) => {
     const phoneNumber = req.query.phone;
     const message = "This is Naveed" 
