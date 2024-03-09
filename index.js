@@ -51,4 +51,4 @@ app.listen(port,ip, () => {
 
 whatsapp.initialize();
 
-module.exports = app;
+// module.exports = app;
